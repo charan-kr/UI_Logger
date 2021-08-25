@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    image: "ui-logger"
+    environment:
+      NODE_ENV: "developement"
