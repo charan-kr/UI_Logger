@@ -1,8 +1,7 @@
-version: "1.0"
+version: "3"
 services:
   web:
-    build:
-      context: .
+    build: .
+    ports:
+      - 8001:8000
     image: ui-logger
-    environment:
-      NODE_ENV: developement
