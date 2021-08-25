@@ -1,5 +1,4 @@
 {
-  "mongoURI": "mongodb://localhost:27017/SocialMediaDB",
-  "mongoURI_": "mongodb+srv://charan:5qSarPiUMWToUdb7@cluster0.dejbz.mongodb.net/logs?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://charan:5qSarPiUMWToUdb7@cluster0.dejbz.mongodb.net/logs?retryWrites=true&w=majority",
   "jwtSecret": "SecretCode_cannot_be_shared"
 }
